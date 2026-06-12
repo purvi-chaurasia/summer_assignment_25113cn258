@@ -11,12 +11,12 @@ int main()
     }
     else
     {
-        while(total!=0)
-        {
-            total=total/10;
-            count++;
-        }
-    }
-    printf("Number of digits = %d", count);
+ while(total!=0)
+ {
+  total=total/10;
+   count++;
+ }
+ }
+  printf("Number of digits = %d", count);
 return 0;
 }
